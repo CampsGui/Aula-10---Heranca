@@ -14,5 +14,8 @@ public class Horista extends Empregado{
         this.horas = horas;
     }
     
+    public void calcularSalario(){
+        salario = horas * 50;
+    }
     
 }
